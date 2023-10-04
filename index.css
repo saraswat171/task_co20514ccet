@@ -1,0 +1,77 @@
+
+
+/* Reset some default browser styles */
+body{
+ 
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100vh;
+    width: 100wh;
+    
+}
+
+.listss{
+  background-color: grey;
+  
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  
+ 
+  gap: 100px;
+}
+
+.dcno{
+  color: black;
+}
+
+ ul {
+    display: block;
+    justify-content: center;
+    
+}
+
+ ul li {
+  
+    margin-right: 20px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+ ul li:last-child {
+    margin-right: 0;
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+ a:hover {
+    color: #ddd;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+     ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+     ul li {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
